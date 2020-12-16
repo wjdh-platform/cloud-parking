@@ -1,0 +1,17 @@
+
+.tabl{
+    width: 750rpx;
+    height: 80rpx;
+    border-bottom: 2rpx solid rgb(204, 204, 204);
+}
+.nav{
+    height: 80rpx;
+    line-height: 80rpx;
+    display: flex;
+    justify-content: space-around;
+
+  }
+  .now{
+    color: #2063af;
+    border-bottom: 4rpx solid #2063af;
+  }

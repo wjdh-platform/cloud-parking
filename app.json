@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/bill/bill",
+    "pages/coupons/coupons",
+    "pages/home/home",
+    "pages/opinion/opinion",
+    "pages/parking/parking",
+    "pages/invoice/invoice",
+    "pages/my/my",
+    "pages/pay/pay",
+    "pages/managemen/managemen",
+    "pages/self_help/self_help"
+    
+
+
+    
+  ],
+  "window":{
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#2063af",
+    "navigationBarTitleText": "云停车场",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#000000",
+     "selectedColor": "#1195ee",
+     "backgroundColor": "#ffffff",
+     "borderStyle": "black",
+    "list": [
+      {
+      "pagePath": "pages/home/home",
+      "text": "首页",
+      "iconPath": "image/img/home.png",
+      "selectedIconPath": "image/img/home_1.png"
+      },
+  
+        {
+          "pagePath": "pages/my/my",
+          "text": "我的",
+          "iconPath": "image/img/my.png",
+          "selectedIconPath": "image/img/my_1.png"
+          }
+  ]
+  },
+
+
+  
+  "sitemapLocation": "sitemap.json"
+}

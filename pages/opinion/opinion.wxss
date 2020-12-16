@@ -1,0 +1,54 @@
+.cuboid{
+    width: 100%;
+    height: 10rpx;
+    background-color: #e4e4e4;
+}
+image{
+    width: 70rpx;
+    height: 70rpx;
+    justify-content: left;
+}
+.head{
+    width: 720rpx;
+    height: 100rpx;
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 20rpx 20rpx 20rpx;
+    line-height: 100rpx;
+}
+text{
+    font-size: 11.5pt;
+    font-weight: bold;
+    position: relative;
+    justify-content: right;
+    margin-left: 30rpx;
+    
+    line-height: 40rpx;
+}
+.txt{
+    font-size: 11.5pt;
+    font-weight: bold;
+    margin:20rpx 30rpx;
+}
+.Input{
+    width: 650rpx;
+    height: 400rpx;
+    margin: 0 auto;
+    border: 1rpx solid #c2c2c2;
+    border-radius: 30rpx;
+}
+input{
+    
+    margin: 30rpx 30rpx;
+
+}
+button{
+    width: 450rpx;
+    height: 90rpx;
+    margin-top: 100rpx;
+    font-size: 12pt;
+    line-height: 90rpx;
+    background-color: #2063af;
+    color: #fff;
+    border-radius: 40rpx;
+}

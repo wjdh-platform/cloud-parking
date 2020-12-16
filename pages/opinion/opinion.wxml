@@ -1,0 +1,15 @@
+<view>
+
+    <view class="head">
+        <view><image src="../../image/img/customer_service.png"></image></view>
+        <text>我们会认真处理您的反馈，尽快修复完善相关内容</text>
+    </view>
+    <view class="cuboid"></view>
+    <view>
+        <view class="txt">您的问题或建议：</view>
+        <view class="Input">
+            <input type="text" placeholder="请简要描述您在使用过程中的问题和意见"></input>
+        </view>
+    </view>
+    <button>确认提交</button>
+</view>

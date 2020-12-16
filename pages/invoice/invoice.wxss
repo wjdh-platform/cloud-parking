@@ -1,0 +1,29 @@
+.cell .button{
+  width: 750rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: row;
+  line-height: 100rpx;
+  background-color: #fff;
+  border-bottom: 1rpx solid #ccc;
+  
+}
+.cell .button .img{
+  width: 30rpx;
+  height: 30rpx;
+  margin: 35rpx 15rpx 35rpx 15rpx
+}
+.cell .button view{
+  font-size: 10pt;
+}
+/* 箭头 */
+.arrow{
+  width: 8px; 
+      height: 8px;  
+      border-top: 1px solid #999;
+      border-right: 1px solid #999;
+      position: absolute; 
+      right: 50rpx; 
+      transform: rotate(45deg);   
+      margin-top:40rpx;    
+}

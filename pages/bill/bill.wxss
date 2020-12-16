@@ -1,0 +1,19 @@
+image{
+    width: 30rpx;
+    height: 30rpx;
+    margin-left: 20rpx;
+}
+.box{
+    width: 750rpx;
+    height: 70rpx;
+    display: flex;
+    line-height: 70rpx;
+    background-color: antiquewhite;
+}
+text{
+    margin-left: 10rpx;
+}
+.txt{
+    justify-content: right;
+    text-align: right;
+}

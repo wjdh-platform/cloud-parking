@@ -1,0 +1,64 @@
+
+<view >
+    
+    <!-- 头部 -->
+        <view class="head">
+            <image class="user" src="../../image/img/user_img.jpg"  lazy-load="false" binderror="" bindload="">
+                
+            </image>
+            <view></view>
+           
+            <button class="btn">切换到商户版</button> 
+            <view class="round">
+            </view>
+        </view>
+    <!-- 账单 优惠部分 -->
+    <view class="body">
+                <view class="preferential">
+                    <view>
+                        <image class="img_left" src="../../image/img/bill.png"></image>
+                    </view>
+                    <view class="text_zd">
+                        <text>账单</text>
+                        <view>查看我的账单</view>
+                    </view>
+                </view>
+
+               <view class="bill">
+                    <view>
+                        <image class="img_right" src="../../image/img/securities.png"></image>
+                    </view>
+                    <view class="text_yh">
+                        <text>优惠劵</text>
+                        <view>查看我的优惠劵</view>
+                    </view>
+               </view>
+    </view>
+    <!-- 表单部分 -->
+        <view class="form">
+           <view class="button">
+               <image class="img" src="../../image/img/bill_1.png"></image>
+               <view>停车缴费记录</view>
+               <view class="arrow"></view>
+
+           </view>
+           <view class="button">
+                <image  class="img" src="../../image/img/To subscribe to.png"></image>
+                <view>自助办理记录</view>
+                <view class="arrow"></view>
+
+           </view>
+           <view class="button">
+                <image class="img" src="../../image/img/To handle the.png"></image>
+                <view>消息订阅</view>
+                <view class="arrow"></view>
+           </view>
+           <view class="button">
+                <image class="img" src="../../image/img/feedback.png"></image>
+                <view>意见反馈</view>
+                <view class="arrow"></view>
+           </view>
+
+        </view>
+    
+</view>

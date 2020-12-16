@@ -1,0 +1,4 @@
+<view>
+    <view><image src="../../image/img/prompt.png"></image></view>
+    <button bind:tap='goToPay'>添加车辆</button>
+</view>

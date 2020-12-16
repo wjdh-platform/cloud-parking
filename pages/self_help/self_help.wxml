@@ -1,0 +1,42 @@
+<view>
+    <form class="for">
+        <view class="cuboid"></view>
+        <view class="label-list">
+            <view class="label">姓名：</view>
+                <view class="input-box">
+                    <input placeholder="请输入您的姓名" value="{{school}}"  placeholder-class="nickname_placeholder"  name='school'/>
+                </view>
+        </view>
+        <view class="label-list">
+            <view class="label">电话：</view>
+                <view class="input-box">
+                    <input  placeholder="请输入您的电话"  type="number"  placeholder-class="nickname_placeholder"  name='school'/>
+                </view>
+        </view>
+        <view class="cuboid"></view>
+        <view class="label-list">
+            <view class="label">车牌号</view>
+                <view class="input-box">
+                    <input  type="number"  placeholder-class="nickname_placeholder" placeholder="请输入您的车牌号" name='school'/>
+                </view>
+        </view>
+        
+        <view class="label-list">
+            <view class="label">停车场</view>
+            <view class="arrow"></view> 
+        </view>   
+        <view class="cuboid"></view>
+        <view class="label-list">
+            <view class="label">续费套餐</view>
+            <view class="arrow"></view>   
+        </view>
+        
+        <view class="label-list">
+            <view class="label">价格</view>
+               
+        </view>
+        
+      
+
+    </form>
+</view>

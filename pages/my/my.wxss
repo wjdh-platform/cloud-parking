@@ -1,0 +1,102 @@
+/* head部分 */
+.round{
+    width: 1000rpx;
+    height: 930rpx;
+    border-radius: 500rpx;
+    background-color: #2063af;
+    margin-left:-115rpx;
+    margin-top:-900rpx;
+}
+.user{
+    width: 88rpx;
+    height: 88rpx;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rpx;
+}
+.btn{
+    width: 160rpx;
+    height: 50rpx;
+    font-size: 6pt;
+    border-radius: 40rpx;
+    line-height: 50rpx;
+    margin :90rpx auto 0 auto;
+
+}
+/* 账单、优惠部分 */
+.body{
+    width: 750rpx;
+    height: 200rpx;
+    margin-top: 30rpx;
+    
+    display: flex;
+}
+.preferential{
+    width: 375rpx;
+    height: 120rpx;
+    justify-content: left;
+    border-right: 1px solid #dfdfdf;
+    display: flex;  
+}
+.bill{
+    width: 375rpx;
+    height: 120rpx;
+    justify-content: right;  
+    display: flex;
+}
+.img_left{
+    width: 78rpx;
+    height: 78rpx;
+    margin: 21rpx 0 21rpx 50rpx; 
+}
+.img_right{
+    width: 78rpx;
+    height: 78rpx;
+    margin: 21rpx 0 21rpx 50rpx; 
+}
+.text_zd{ 
+    margin: 18rpx 0 0 15rpx;
+}
+.text_zd view{
+    font-size: 10pt;
+    color: #a1a1a1;
+}
+.text_yh{ 
+    margin: 18rpx 0 0 15rpx;
+    
+}
+.text_yh view{
+    font-size: 10pt;
+    color: #a1a1a1;
+}
+
+/* 表单部分 */
+.form .button{
+    width: 750rpx;
+    height: 100rpx;
+    display: flex;
+    flex-direction: row;
+    line-height: 100rpx;
+    background-color: #fff;
+    border-bottom: 1rpx solid #ccc;
+    
+}
+.form .button .img{
+    width: 30rpx;
+    height: 30rpx;
+    margin: 35rpx 15rpx 35rpx 15rpx
+}
+.form .button view{
+    font-size: 10pt;
+}
+/* 箭头 */
+ .arrow{
+    width: 8px; 
+        height: 8px;  
+        border-top: 1px solid #999;
+        border-right: 1px solid #999;
+        position: absolute; 
+        right: 50rpx; 
+        transform: rotate(45deg);   
+        margin-top:40rpx;    
+}

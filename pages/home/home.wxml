@@ -1,0 +1,55 @@
+
+<view class="body">
+    <!-- tab切换 -->
+    <view class="head">
+        <view class="nav">
+            <view class="{{style[0]}}" data-index="{{0}}"bindtap="tab" >手动缴费</view>
+            <view class="{{style[1]}}" data-index="{{1}}"bindtap="tab">无感支付</view>
+        </view>
+        <view hidden="{{hidden[0]}}" >
+                <image src="../../image/img/prompt.png" ></image>
+                <button bind:tap='goToPay' >输入车牌号缴费</button>
+        </view>
+    </view>
+    <!-- 滚动条 -->
+    <view class="img">
+        <image src="../../image/img/guangbo.png" ></image>
+        <swiper class="swiper_zi" vertical="true" autoplay="true" circular="true" interval="5000">
+        <block wx:for="{{adList}}">
+            <swiper-item>
+            <view class="zimubox">
+                <view class="swiper_item">{{item.title}}</view>
+            </view>
+            </swiper-item>
+        </block>
+    </swiper>
+</view>
+    <!-- icon功能区 -->
+    <view class="function">
+        <view class="Ic">
+            <view  class="icon" ><image bind:tap='getScancode' src="../../image/img/scan.png"></image>
+            <view class="text">扫码领卷</view></view>
+            <view class="icon"><image bind:tap='goToManagemen' src="../../image/img/manage.png"></image>
+            <view class="text">车辆管理</view></view>
+            <view class="icon" ><image src="../../image/img/pay.png" ></image>
+            <view class="text">车辆续费</view></view>
+            <view class="icon"><image bind:tap='goToSelf_help' src="../../image/img/self_help.png"></image>
+            <view class="text">自主办理</view></view>
+        </view>
+        
+        <view class="Ic">
+            <view class="icon"><image bind:tap='goToInvoice' src="../../image/img/self_help.png"></image>
+            <view class="text">电子发票</view></view>
+            <view class="icon"><image bind:tap='goToPay' src="../../image/img/volume.png"></image>
+            <view class="text" >使用卷</view></view>
+            <view class="icon"><image bind:tap='goToParking' src="../../image/img/parking.png"></image>
+            <view class="text">路旁停车</view></view>
+        </view>
+       
+    </view>
+    <view class="btn">
+       
+
+    </view>
+</view>
+

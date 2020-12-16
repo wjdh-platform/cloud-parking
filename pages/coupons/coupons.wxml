@@ -1,0 +1,23 @@
+<view class="tabl">
+    <view class="nav">
+        <view class="{{style[0]}}" data-index="{{0}}" bindtap="tab">未使用()</view>
+        <view class="{{style[1]}}" data-index="{{1}}" bindtap="tab">已使用()</view>
+        <view class="{{style[2]}}" data-index="{{2}}" bindtap="tab">已失效()</view>
+    </view>
+</view>
+    <view hidden="{{hidden[0]}}"> 
+      <view class="img">
+          
+      </view>
+    </view>
+    <view hidden="{{hidden[1]}}">
+        <view class="img">
+          
+      </view>
+    </view>
+    <view hidden="{{hidden[2]}}">
+        <view class="img">
+          
+      </view>
+    </view>
+
