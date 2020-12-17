@@ -8,6 +8,16 @@ Page({
         
     },
 
+    goTobill(){
+        wx.navigateTo({
+          url: '/pages/sidebar/sidebar',
+        })
+    },
+    goToVolume(){
+            wx.navigateTo({
+              url: '/pages/sidebar/sidebar',
+            })
+    },
     /**
      * 生命周期函数--监听页面加载
      */

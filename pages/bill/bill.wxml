@@ -1,9 +1,0 @@
-
-   
-        <view class="box">
-            <image src="../../image/img/screening.png"></image>
-            <view>筛选</view>
-            <view class="txt">总计缴费金额：0元</view>
-        </view>
-        
-

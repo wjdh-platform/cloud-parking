@@ -21,7 +21,7 @@
 }
 .input-box{
     position: relative;
-    left:330rpx;
+    margin-left: 300rpx;
     text-align: right;
     font-size: 10pt;
 }

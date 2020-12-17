@@ -1,0 +1,31 @@
+<view class="page">
+    <!-- 侧边栏内容 -->
+    <view class="page-slidebar">
+      
+<!-- 内容部分 -->
+        <view class="filtrate {{filtrate? '':'none'}}">
+            <view class="text_time"><view class="time">时间段</view></view>
+
+<!-- 底部按钮 -->
+        <view class="btn">
+            <view>
+                <view bindtap="chongzhi">重置</view>
+                <view bindtap="queren">确定</view>
+            </view>
+        </view>
+</view>
+    <!-- 主页面内容 -->
+    <view bindtouchmove="tap_drag" bindtouchend="tap_end" bindtouchstart="tap_start" class="page-top {{open ? ['c-state','cover'] : ''}} ">
+            
+            <view class='content'> 
+                <image src="../../image/img/screening.png"></image>
+                <view class="txt">
+                    <view class="text_left" bindtap="tap_ch">筛选</view>
+                    <view class="text_right">总计缴费金额：0元</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+
+  

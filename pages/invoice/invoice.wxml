@@ -1,19 +1,19 @@
 <view class="cell">
            <view class="button">
                <image class="img" src="../../image/img/invoice_1.png"></image>
-               <view>申请停车电子发票</view>
+               <view class="text">申请停车电子发票</view>
                <view class="arrow"></view>
 
            </view>
            <view class="button">
                 <image  class="img" src="../../image/img/record_1.png"></image>
-                <view>缴费历史</view>
+                <view class="text">缴费历史</view>
                 <view class="arrow"></view>
 
            </view>
            <view class="button">
                 <image class="img" src="../../image/img/help_1.png"></image>
-                <view>开票帮助</view>
+                <view class="text">开票帮助</view>
                 <view class="arrow"></view>
            </view>
 </view>

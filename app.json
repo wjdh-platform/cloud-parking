@@ -1,12 +1,13 @@
 {
   "pages":[
-    "pages/bill/bill",
-    "pages/coupons/coupons",
     "pages/home/home",
+    "pages/my/my",
+    "pages/sidebar/sidebar",
+    "pages/coupons/coupons",
     "pages/opinion/opinion",
     "pages/parking/parking",
     "pages/invoice/invoice",
-    "pages/my/my",
+
     "pages/pay/pay",
     "pages/managemen/managemen",
     "pages/self_help/self_help"

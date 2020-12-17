@@ -39,7 +39,7 @@
     "compileType": "miniprogram",
     "libVersion": "2.14.1",
     "appid": "wx94db80f7c2896665",
-    "projectname": "miniprogram-3",
+    "projectname": "cloud-parking",
     "debugOptions": {
         "hidedInDevtools": []
     },

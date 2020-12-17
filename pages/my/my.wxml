@@ -14,23 +14,23 @@
         </view>
     <!-- 账单 优惠部分 -->
     <view class="body">
-                <view class="preferential">
+                <view class="preferential" bindtap="goTobill">
                     <view>
                         <image class="img_left" src="../../image/img/bill.png"></image>
                     </view>
-                    <view class="text_zd">
-                        <text>账单</text>
-                        <view>查看我的账单</view>
+                    <view class="text_zd" >
+                        <view>账单</view>
+                        <view class="txt">查看我的账单</view>
                     </view>
                 </view>
 
-               <view class="bill">
+               <view class="bill" bindtap="goToVolume">
                     <view>
                         <image class="img_right" src="../../image/img/securities.png"></image>
                     </view>
                     <view class="text_yh">
-                        <text>优惠劵</text>
-                        <view>查看我的优惠劵</view>
+                        <view>优惠劵</view>
+                        <view class="txt">查看我的优惠劵</view>
                     </view>
                </view>
     </view>

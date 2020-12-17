@@ -29,18 +29,18 @@
         <view class="Ic">
             <view  class="icon" ><image bind:tap='getScancode' src="../../image/img/scan.png"></image>
             <view class="text">扫码领卷</view></view>
-            <view class="icon"><image bind:tap='goToManagemen' src="../../image/img/manage.png"></image>
+            <view class="icon"><image bind:tap='goToManagemen' src="../../image/img/management_home.png"></image>
             <view class="text">车辆管理</view></view>
-            <view class="icon" ><image src="../../image/img/pay.png" ></image>
+            <view class="icon" ><image src="../../image/img/renewal.png"></image>
             <view class="text">车辆续费</view></view>
-            <view class="icon"><image bind:tap='goToSelf_help' src="../../image/img/self_help.png"></image>
+            <view class="icon"><image bind:tap='goToSelf_help' src="../../image/img/self-help.png"></image>
             <view class="text">自主办理</view></view>
         </view>
         
         <view class="Ic">
-            <view class="icon"><image bind:tap='goToInvoice' src="../../image/img/self_help.png"></image>
+            <view class="icon"><image bind:tap='goToInvoice' src="../../image/img/invoice_home.png"></image>
             <view class="text">电子发票</view></view>
-            <view class="icon"><image bind:tap='goToPay' src="../../image/img/volume.png"></image>
+            <view class="icon"><image bind:tap='goToPay' src="../../image/img/coupon.png"></image>
             <view class="text" >使用卷</view></view>
             <view class="icon"><image bind:tap='goToParking' src="../../image/img/parking.png"></image>
             <view class="text">路旁停车</view></view>

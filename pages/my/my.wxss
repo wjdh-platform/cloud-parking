@@ -12,7 +12,7 @@
     height: 88rpx;
     display: flex;
     margin: 0 auto;
-    margin-top: 2rpx;
+    margin-top: 20rpx;
 }
 .btn{
     width: 160rpx;
@@ -20,7 +20,7 @@
     font-size: 6pt;
     border-radius: 40rpx;
     line-height: 50rpx;
-    margin :90rpx auto 0 auto;
+    margin :70rpx auto 0 auto;
 
 }
 /* 账单、优惠部分 */
@@ -56,17 +56,20 @@
 }
 .text_zd{ 
     margin: 18rpx 0 0 15rpx;
+    font-size: 11pt;
 }
-.text_zd view{
-    font-size: 10pt;
+.txt{
+    font-size: 9pt;
     color: #a1a1a1;
 }
+
 .text_yh{ 
     margin: 18rpx 0 0 15rpx;
+    font-size: 11pt;
     
 }
-.text_yh view{
-    font-size: 10pt;
+.txt{
+    font-size: 9pt;
     color: #a1a1a1;
 }
 
