@@ -41,7 +41,7 @@
             <view class="icon"><image bind:tap='goToInvoice' src="../../image/img/invoice_home.png"></image>
             <view class="text">电子发票</view></view>
             <view class="icon"><image bind:tap='goToPay' src="../../image/img/coupon.png"></image>
-            <view class="text" >使用卷</view></view>
+            <view class="text" >优惠用劵</view></view>
             <view class="icon"><image bind:tap='goToParking' src="../../image/img/parking.png"></image>
             <view class="text">路旁停车</view></view>
         </view>

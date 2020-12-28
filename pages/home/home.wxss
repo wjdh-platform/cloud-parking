@@ -13,7 +13,6 @@
 .now{
     color: #2063af;
     border-bottom: 4rpx solid #2063af;
-   
 }
 .head{
     width: 650rpx;
@@ -22,8 +21,7 @@
     border-radius: 15px;
     margin: 0 auto;
     margin-top: 50rpx;
-    box-shadow:0px 2px 5px 5px #cfcfcf;
-    
+    box-shadow:0px 2px 5px 5px #cfcfcf;  
 }
 .head button{
     width: 300rpx;
@@ -94,7 +92,6 @@
 }
 .function{
     width: 100%;
-    margin: 0 50rpx;
     margin-top: 20rpx;
 } 
 .icon{
@@ -102,22 +99,15 @@
     height: 150rpx;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    
     font-size: 10pt;
-    text-align: center;
+    margin: auto 10rpx;
+    
 } 
 .text{
-    margin-left: 40rpx;
+    
     margin-top: 10rpx;
+    margin-left:auto;
 }
-.btn button{
-    width: 100%;
-    height: 88rpx;
-    line-height: 88rpx;
-}
-.btn button image{
-    width: 26rpx;
-    height: 26rpx;
- 
-}
+
 

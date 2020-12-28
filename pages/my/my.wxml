@@ -3,10 +3,9 @@
     
     <!-- 头部 -->
         <view class="head">
-            <image class="user" src="../../image/img/user_img.jpg"  lazy-load="false" binderror="" bindload="">
-                
-            </image>
-            <view></view>
+            <image class="user" src="{{path}}" bindtap="fetchinfo"> </image>
+            <view class="name">{{name}}</view>
+           
            
             <button class="btn">切换到商户版</button> 
             <view class="round">
@@ -36,9 +35,9 @@
     </view>
     <!-- 表单部分 -->
         <view class="form">
-           <view class="button">
+        <view class="button" bindtap="getLocalPath">
                <image class="img" src="../../image/img/bill_1.png"></image>
-               <view>停车缴费记录</view>
+               <view>{{LocalPath}}</view>
                <view class="arrow"></view>
 
            </view>

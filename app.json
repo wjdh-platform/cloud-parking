@@ -1,16 +1,20 @@
 {
   "pages":[
+    "pages/account/account",
+    "pages/self_help/self_help",
+    "pages/center/center",
     "pages/home/home",
+    
+    
     "pages/my/my",
     "pages/sidebar/sidebar",
     "pages/coupons/coupons",
     "pages/opinion/opinion",
     "pages/parking/parking",
     "pages/invoice/invoice",
-
     "pages/pay/pay",
-    "pages/managemen/managemen",
-    "pages/self_help/self_help"
+    "pages/managemen/managemen"
+    
     
 
 

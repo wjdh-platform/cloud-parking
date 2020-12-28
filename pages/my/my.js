@@ -1,11 +1,13 @@
-// pages/my/my.js
+const app = getApp();
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-        
+      path:"../../image/img/user_img.jpg",
+      name:"",
+      LocalPath:"停车缴费记录"
     },
 
     goTobill(){
@@ -18,6 +20,34 @@ Page({
               url: '/pages/sidebar/sidebar',
             })
     },
+    fetchinfo:function(){
+      // wx.openSetting({}) 
+      var that = this;
+      wx.getUserInfo({
+        success: function(res){
+          console.log(res)
+          that.setData({
+            name: res.userInfo.nickName,
+            path: res.userInfo.avatarUrl
+          });
+        },
+      })
+    },
+
+    getLocalPath:function(){
+      var that = this; 
+      wx.chooseLocation({
+        success:function(res){
+          that.setData({LocalPath:res.address})
+        }
+      })
+    },
+
+
+
+
+
+
     /**
      * 生命周期函数--监听页面加载
      */

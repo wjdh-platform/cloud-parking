@@ -1,66 +1,30 @@
-// pages/self_help/self_help.js
+const app = getApp();
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        name:"",
+        phone:"",
     },
-
-    /**
-     * 生命周期函数--监听页面加载
-     */
-    onLoad: function (options) {
-
+    bindname:function(e){
+        this.setData({name:e.detail.value});
     },
-
-    /**
-     * 生命周期函数--监听页面初次渲染完成
-     */
-    onReady: function () {
-
+    bindphone:function(e){
+        this.setData({phone:e.detail.value});
     },
+    bindlocation:function(e){
+       console.log(this.data.name,this.data.phone);
+       wx.request({
+        url: 'http//127.0.0.1:8000/api/login/',
+        data: { name : this.data.name, phone: this.data.phone},
+        method: 'POST',
+               
 
-    /**
-     * 生命周期函数--监听页面显示
-     */
-    onShow: function () {
-
+      })
     },
+    //将手机号和验证码发送到后端，后端进行登录
 
-    /**
-     * 生命周期函数--监听页面隐藏
-     */
-    onHide: function () {
 
-    },
-
-    /**
-     * 生命周期函数--监听页面卸载
-     */
-    onUnload: function () {
-
-    },
-
-    /**
-     * 页面相关事件处理函数--监听用户下拉动作
-     */
-    onPullDownRefresh: function () {
-
-    },
-
-    /**
-     * 页面上拉触底事件的处理函数
-     */
-    onReachBottom: function () {
-
-    },
-
-    /**
-     * 用户点击右上角分享
-     */
-    onShareAppMessage: function () {
-
-    }
 })

@@ -4,13 +4,13 @@
         <view class="label-list">
             <view class="label">姓名：</view>
                 <view class="input-box">
-                    <input placeholder="请输入您的姓名" value="{{school}}"  placeholder-class="nickname_placeholder"  name='school'/>
+                    <input placeholder="请输入您的姓名" value="{{name}}" bindinput="bindname" placeholder-class="nickname_placeholder"  />
                 </view>
         </view>
         <view class="label-list">
             <view class="label">电话：</view>
                 <view class="input-box">
-                    <input  placeholder="请输入您的电话"  type="number"  placeholder-class="nickname_placeholder"  name='school'/>
+                    <input  placeholder="请输入您的电话"  type="number"  value = "{{phone}}" bindinput="bindphone" placeholder-class="nickname_placeholder" />
                 </view>
         </view>
         <view class="cuboid"></view>
@@ -35,8 +35,7 @@
             <view class="label">价格</view>
                
         </view>
-        
-      
+        <view bindtap="bindlocation">点击获取验证码</view>
 
     </form>
 </view>

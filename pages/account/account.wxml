@@ -1,0 +1,18 @@
+
+  <view class="head">
+      <view class="round">
+      </view>
+      <view class="txt">AI智慧停车</view>
+  </view>
+  <view class="User_pwd">
+      <view class="box">
+        <view ><image src="../../image/img/user.png"></image></view>
+        <input type="text" placeholder="请输入商户账号" value="{{id}}" bindinput="account"></input>
+      </view>
+      <view class="box">
+        <view><image src="../../image/img/pwd.png"></image></view>
+        <input type="text" placeholder="请输入登录密码" password="11" value="{{pwd}}" bindinput="password"></input><button bindtap="checkCode"class="btn" >获取验证码</button>
+      </view>
+      <button bindtap="loge">登录</button>
+  </view>
+  

@@ -1,0 +1,21 @@
+<view>
+  <view class="background"></view>
+    <view bindtap="">
+      <view class="arrow"></view>
+      <view class="text"bindtap="upLoadimage">头像 
+        <view>
+          <image wx:for="{{imageList}}" src="{{item}}"></image>
+      </view>
+     </view>
+    </view>
+  <view class="background"></view>
+    <view class="arrow"></view>
+      <view class="text">姓名  </view>
+  <view class="arrow"></view>
+    <view class="text">性别  </view>
+  <view class="background"></view>
+    <view class="arrow"></view>
+      <view class="text">手机号  </view>
+</view>
+
+
